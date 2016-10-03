@@ -1,5 +1,5 @@
 html {
-	    display: block;
+        display: block;
 }
 .logo {
     display: block;
@@ -11,7 +11,7 @@ html {
 
 
 body{
-	 background: #298eea;
+     background: #298eea;
     font-family: 'Roboto', helvetica, sans-serif;
     padding: 0;
     margin: 0;
@@ -102,8 +102,8 @@ font-size: 15px;
 
 
 footer p {
-	color: white;
-	text-align: center;
+    color: white;
+    text-align: center;
     margin: 20px auto;
     font-weight: 600;
     border: 0;
