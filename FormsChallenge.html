@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>AnalogSea Signup Form</title>
+	<meta name= "AnalogSea Signup Form">
+	<link rel="stylesheet" type="text/css" href="FormsChallenge.css">
+</head>
+
+<body> 
+	<div class="logo">
+		<img src= "images/AnalogSeaLogo.jpg" alt="AnalogSeaLogo">
+	</div>
+	<div class = "box">
+		<form class="signup-form" action="/signup" accept-charset="UTF-8" method="post">
+
+			<div class = "signlegend">Sign up</div>
+
+			<fieldset name="contact-info">
+				<label for="email">Email</label>
+				<input placeholder= "foo@bar.com" type="email" name='email' id='email'/>
+
+				<label for="password">Password </label>
+				<input type="password" name='password' id='password' placeholder='1234passw0rd' />
+
+				<button type='signup'>Sign Up
+
+				</button>
+				<div class = "forgot">
+				<p><a href="/forgot_password/new">Forgot password?</a></p>
+				</div>
+			</form>
+		</div>
+		<footer>
+			<p> Already have an account? <a href="/login">Log in</a> </p>
+		</footer>
+	</body>
+
+	</html>
